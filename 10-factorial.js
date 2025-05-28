@@ -5,6 +5,8 @@ const a = Number(userArgs[0]);
 
 if (!isNaN(a)) {
     console.log(fact(a));
+} else {
+    console.log(1);
 }
 
 function fact(n) {
